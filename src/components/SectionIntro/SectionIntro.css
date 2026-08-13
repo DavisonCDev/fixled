@@ -1,0 +1,22 @@
+.section-intro {
+  max-width: 720px;
+  margin-bottom: 36px;
+}
+
+.section-intro--center {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.section-intro__kicker {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  margin-bottom: 18px;
+  border-radius: 999px;
+  background: rgba(26, 26, 100, 0.06);
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 0.86rem;
+  letter-spacing: 0.02em;
+}

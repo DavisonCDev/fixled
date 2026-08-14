@@ -8,7 +8,6 @@ function Services({ services }) {
         <SectionIntro
           kicker="Serviços"
           title="Da escolha da peça até a instalação"
-          text="Essa parte é muito importante porque diferencia a FixLed de uma loja comum."
         />
 
         <div className="services-grid">

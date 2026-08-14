@@ -28,8 +28,13 @@
   border: 1px solid var(--color-border);
 }
 
-.projects-grid .projects-card__image {
+.projects-grid--4 .projects-card__image {
   height: 220px;
+}
+
+.projects-grid--3 .projects-card__image {
+  height: auto;
+  min-height: 260px;
 }
 
 .projects-card__image img,

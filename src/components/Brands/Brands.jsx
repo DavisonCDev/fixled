@@ -12,8 +12,9 @@ function Brands({ brands }) {
 
         <div className="brands-grid">
           {brands.map((brand) => (
-            <div key={brand} className="brands-chip">
-              {brand}
+            <div key={brand.name} className="brands-chip">
+              <img src={brand.logo} alt={`Logo ${brand.name}`} />
+              <span>{brand.name}</span>
             </div>
           ))}
         </div>

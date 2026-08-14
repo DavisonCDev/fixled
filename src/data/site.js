@@ -86,7 +86,14 @@ export const siteData = {
     },
   ],
 
-  brands: ['Avant', 'Taschibra', 'Ourolux', 'Philips', 'Elgin', 'Tramontina'],
+  brands: [
+    { name: 'Avant', logo: 'assets/brands/avant.png' },
+    { name: 'Taschibra', logo: 'assets/brands/taschibra.png' },
+    { name: 'Ourolux', logo: 'assets/brands/ourolux.png' },
+    { name: 'Philips', logo: 'assets/brands/philips.svg' },
+    { name: 'Elgin', logo: 'assets/brands/elgin.png' },
+    { name: 'Tramontina', logo: 'assets/brands/tramontina.png' },
+  ],
 
   reasons: [
     {

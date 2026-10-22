@@ -6,7 +6,7 @@ function Footer({ company, menu }) {
       <div className="container site-footer__content">
         <div>
           <strong>{company.name}</strong>
-          <p>Iluminação, materiais elétricos, parafusos e instalação.</p>
+          <p>Parafusos, ferramentas, materiais elétricos e iluminação.</p>
         </div>
 
         <div className="site-footer__links">

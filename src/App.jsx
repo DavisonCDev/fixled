@@ -1,9 +1,6 @@
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Categories from './components/Categories/Categories'
-import FeaturedProducts from './components/FeaturedProducts/FeaturedProducts'
-import Services from './components/Services/Services'
-import Brands from './components/Brands/Brands'
 import WhyChoose from './components/WhyChoose/WhyChoose'
 import Projects from './components/Projects/Projects'
 import Testimonials from './components/Testimonials/Testimonials'
@@ -17,12 +14,6 @@ function App() {
       <Header company={siteData.company} menu={siteData.menu} />
       <Hero hero={siteData.hero} company={siteData.company} />
       <Categories categories={siteData.categories} />
-      <FeaturedProducts
-        products={siteData.featuredProducts}
-        company={siteData.company}
-      />
-      <Services services={siteData.services} />
-      <Brands brands={siteData.brands} />
       <WhyChoose reasons={siteData.reasons} />
       <Projects
         projects={siteData.store}
@@ -33,9 +24,11 @@ function App() {
       />
       <Projects
         projects={siteData.projects}
+        company={siteData.company}
         kicker="Linha completa"
         title="Portfólio de parafusos"
         text="Principais modelos de parafusos, fixadores e acessórios para seu projeto."
+        showQuote
       />
       <Testimonials testimonials={siteData.testimonials} />
       <Contact contact={siteData.contact} company={siteData.company} />

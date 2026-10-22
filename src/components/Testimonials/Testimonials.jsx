@@ -7,7 +7,7 @@ function Testimonials({ testimonials }) {
       <div className="container">
         <SectionIntro
           kicker="Depoimentos"
-          title="Quem compra e instala com a gente recomenda"
+          title="Quem compra com a gente recomenda"
         />
 
         <div className="testimonials-grid">

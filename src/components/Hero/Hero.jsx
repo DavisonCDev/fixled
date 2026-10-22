@@ -31,15 +31,15 @@ function Hero({ hero, company }) {
               Solicitar orçamento
             </a>
 
-            <a href="#servicos" className="btn-outline">
-              Ver serviços
+            <a href="#produtos" className="btn-outline">
+              Ver produtos
             </a>
           </div>
         </div>
 
         <div className="hero__visual glow-effect">
           <div className="hero__main-card">
-            {hero.video && (
+            {hero.video ? (
               <video
                 className="hero__video"
                 src={hero.video}
@@ -49,6 +49,14 @@ function Hero({ hero, company }) {
                 playsInline
                 aria-label={hero.imageTitle}
               />
+            ) : (
+              hero.image && (
+                <img
+                  className="hero__video"
+                  src={hero.image}
+                  alt={hero.imageTitle}
+                />
+              )
             )}
             <h3>{hero.imageTitle}</h3>
             <p>{hero.imageText}</p>

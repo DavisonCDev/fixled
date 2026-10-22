@@ -1,4 +1,4 @@
-import { MapPin, Zap } from 'lucide-react'
+import { MapPin, Phone, Zap } from 'lucide-react'
 import SectionIntro from '../SectionIntro/SectionIntro'
 import './Contact.css'
 
@@ -22,16 +22,25 @@ function Contact({ contact, company }) {
               <Zap size={18} />
               <span>WhatsApp: {company.whatsapp}</span>
             </li>
+            <li>
+              <Phone size={18} />
+              <span>Ligação: {company.whatsapp}</span>
+            </li>
           </ul>
 
-          <a
-            href={company.whatsappLink}
-            target="_blank"
-            rel="noreferrer"
-            className="btn-primary"
-          >
-            Falar no WhatsApp
-          </a>
+          <div className="contact__actions">
+            <a
+              href={company.whatsappLink}
+              target="_blank"
+              rel="noreferrer"
+              className="btn-primary"
+            >
+              Falar no WhatsApp
+            </a>
+            <a href={company.phoneLink} className="btn-outline">
+              Ligar para a loja
+            </a>
+          </div>
         </div>
 
         <div className="contact__map">

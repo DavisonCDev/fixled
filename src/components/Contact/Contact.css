@@ -26,6 +26,12 @@
   font-weight: 600;
 }
 
+.contact__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 .contact__map {
   min-height: 360px;
   border-radius: var(--radius-lg);

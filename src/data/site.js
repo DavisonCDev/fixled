@@ -23,10 +23,10 @@ export const siteData = {
     description:
       'A FixLed atende em Nova Lima - MG com foco em cliente final, oferecendo parafusos, ferramentas, materiais elétricos e iluminação.',
     categories: ['Parafusos', 'Ferramentas', 'Materiais Elétricos', 'Iluminação'],
-    image: 'assets/site/mostruario-loja-01.jpeg',
-    imageTitle: 'Loja completa',
+    video: 'assets/site/video-loja.mp4',
+    imageTitle: 'Mostruário de parafusos',
     imageText:
-      'Parafusos, ferramentas, materiais elétricos e iluminação para a sua necessidade.',
+      'Variedade em parafusos, fixadores e ferragens para todos os projetos.',
     floatingTitle: 'Pronta entrega',
     floatingText: 'Agilidade e variedade para o seu projeto.',
   },
@@ -84,7 +84,7 @@ export const siteData = {
   ],
 
   projects: [
-    { title: 'Mostruário de parafusos', video: 'assets/site/mostruario-parafusos-loja.mp4' },
+    { title: 'Mostruário da loja', video: 'assets/site/mostruario-parafusos-loja.mp4' },
     { title: 'Parafuso sextavado inox', image: 'assets/portfolio/catalogo/sextavado-pesado-1.jpeg' },
     { title: 'Parafuso sextavado bicromatizado', image: 'assets/portfolio/catalogo/sextavado-pesado-2.jpeg' },
     { title: 'Parafuso sextavado preto', image: 'assets/portfolio/catalogo/sextavado-pesado-3.jpeg' },

@@ -1,8 +1,4 @@
 import { useState } from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay, Navigation } from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/navigation'
 import SectionIntro from '../SectionIntro/SectionIntro'
 import './Projects.css'
 
@@ -86,29 +82,13 @@ function Projects({
           </div>
         )}
 
-        {featured || showQuote ? (
-          <Swiper
-            className="projects-swiper"
-            modules={[Autoplay, Navigation]}
-            navigation
-            autoplay={{ delay: 3200, pauseOnMouseEnter: true }}
-            loop={rest.length > 4}
-            spaceBetween={24}
-            slidesPerView={1}
-            breakpoints={{
-              720: { slidesPerView: 2 },
-              1080: { slidesPerView: columns },
-            }}
-          >
-            {rest.map((project) => (
-              <SwiperSlide key={project.title}>{renderCard(project)}</SwiperSlide>
-            ))}
-          </Swiper>
-        ) : (
-          <div className={`projects-grid projects-grid--${columns}`}>
-            {rest.map(renderCard)}
-          </div>
-        )}
+        <div
+          className={`projects-grid projects-grid--${columns} ${
+            showQuote ? 'projects-grid--compact' : ''
+          }`}
+        >
+          {rest.map(renderCard)}
+        </div>
       </div>
     </section>
   )

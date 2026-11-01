@@ -5,6 +5,7 @@ import './Projects.css'
 function Projects({
   projects,
   company,
+  id,
   kicker = 'Linha completa',
   title = 'Portfólio de parafusos',
   text = '',
@@ -52,7 +53,7 @@ function Projects({
   )
 
   return (
-    <section className="section section--alt">
+    <section className="section section--alt" id={id}>
       <div className="container">
         <SectionIntro kicker={kicker} title={title} text={text} />
 
@@ -82,13 +83,17 @@ function Projects({
           </div>
         )}
 
-        <div
-          className={`projects-grid projects-grid--${columns} ${
-            showQuote ? 'projects-grid--compact' : ''
-          }`}
-        >
-          {rest.map(renderCard)}
-        </div>
+        {showQuote ? (
+          <div className="projects-scroll">
+            <div className="projects-grid projects-grid--compact">
+              {rest.map(renderCard)}
+            </div>
+          </div>
+        ) : (
+          <div className={`projects-grid projects-grid--${columns}`}>
+            {rest.map(renderCard)}
+          </div>
+        )}
       </div>
     </section>
   )

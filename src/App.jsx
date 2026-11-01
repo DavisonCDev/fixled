@@ -16,6 +16,7 @@ function App() {
       <Categories categories={siteData.categories} />
       <WhyChoose reasons={siteData.reasons} />
       <Projects
+        id="a-loja"
         projects={siteData.store}
         kicker="Conheça a loja"
         title="Galeria FixLed"
@@ -23,6 +24,7 @@ function App() {
         columns={3}
       />
       <Projects
+        id="parafusos"
         projects={siteData.projects}
         company={siteData.company}
         kicker="Linha completa"

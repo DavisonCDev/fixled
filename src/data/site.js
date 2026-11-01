@@ -5,6 +5,8 @@ export const siteData = {
     whatsappNumber: '553133403970',
     phoneLink: 'tel:+553133403970',
     city: 'Nova Lima - MG',
+    instagram: 'https://www.instagram.com/fixlednl/',
+    instagramHandle: '@fixlednl',
     whatsappLink:
       'https://wa.me/553133403970?text=Ol%C3%A1!%20Quero%20solicitar%20um%20or%C3%A7amento%20na%20FixLed.',
   },
@@ -13,6 +15,8 @@ export const siteData = {
     { label: 'Início', href: '#inicio' },
     { label: 'Produtos', href: '#produtos' },
     { label: 'Quem Somos', href: '#quem-somos' },
+    { label: 'A Loja', href: '#a-loja' },
+    { label: 'Parafusos', href: '#parafusos' },
     { label: 'Contato', href: '#contato' },
   ],
 

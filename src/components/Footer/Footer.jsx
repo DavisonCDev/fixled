@@ -1,3 +1,4 @@
+import InstagramIcon from '../icons/InstagramIcon'
 import './Footer.css'
 
 function Footer({ company, menu }) {
@@ -15,6 +16,15 @@ function Footer({ company, menu }) {
               {item.label}
             </a>
           ))}
+          <a
+            href={company.instagram}
+            target="_blank"
+            rel="noreferrer"
+            className="site-footer__social"
+          >
+            <InstagramIcon size={16} />
+            {company.instagramHandle}
+          </a>
         </div>
       </div>
 

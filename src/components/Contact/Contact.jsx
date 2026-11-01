@@ -1,4 +1,5 @@
 import { MapPin, Phone, Zap } from 'lucide-react'
+import InstagramIcon from '../icons/InstagramIcon'
 import SectionIntro from '../SectionIntro/SectionIntro'
 import './Contact.css'
 
@@ -25,6 +26,16 @@ function Contact({ contact, company }) {
             <li>
               <Phone size={18} />
               <span>Ligação: {company.whatsapp}</span>
+            </li>
+            <li>
+              <InstagramIcon size={18} />
+              <a
+                href={company.instagram}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram: {company.instagramHandle}
+              </a>
             </li>
           </ul>
 

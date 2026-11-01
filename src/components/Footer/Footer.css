@@ -19,7 +19,14 @@
 .site-footer__links {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 20px;
+}
+
+.site-footer__social {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .site-footer__credits {

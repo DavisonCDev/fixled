@@ -5,6 +5,7 @@ export const siteData = {
     whatsappNumber: '553133403970',
     phoneLink: 'tel:+553133403970',
     city: 'Nova Lima - MG',
+    cnpj: '65.302.266/0001-34',
     instagram: 'https://www.instagram.com/fixlednl/',
     instagramHandle: '@fixlednl',
     whatsappLink:
@@ -96,7 +97,7 @@ export const siteData = {
     { title: 'Parafuso sextavado preto curto', image: 'assets/portfolio/catalogo/sextavado-pesado-5.jpeg' },
     { title: 'Parafuso sextavado zincado', image: 'assets/portfolio/catalogo/sextavado-1.jpeg' },
     { title: 'Parafuso sextavado 10.9', image: 'assets/portfolio/catalogo/sextavado-2.jpeg' },
-    { title: 'Parafuso sextavado rosca parcial', image: 'assets/portfolio/catalogo/sextavado-3.jpeg' },
+    { title: 'Parafuso sextavado inox rosca parcial', image: 'assets/portfolio/catalogo/sextavado-3.jpeg' },
     { title: 'Parafuso sextavado classe 10.9', image: 'assets/portfolio/catalogo/sextavado-4.jpeg' },
     { title: 'Parafuso sextavado com porca', image: 'assets/portfolio/catalogo/sextavado-5.jpeg' },
     { title: 'Parafuso sextavado zincado branco', image: 'assets/portfolio/catalogo/sextavado-zincado-1.jpeg' },

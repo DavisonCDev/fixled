@@ -23,12 +23,6 @@
   gap: 20px;
 }
 
-.site-footer__social {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
 .site-footer__credits {
   margin-top: 20px;
   text-align: center;

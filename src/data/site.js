@@ -144,16 +144,16 @@ export const siteData = {
 
   testimonials: [
     {
-      name: 'Mariana Souza',
-      text: 'Fui muito bem atendida e encontrei tudo o que precisava. A variedade de produtos mudou completamente minha reforma.',
+      name: 'Isabela Cristina',
+      text: 'Atendimento excelente do início ao fim. Me ajudaram a encontrar exatamente o parafuso que eu precisava. Recomendo demais!',
     },
     {
-      name: 'Carlos Henrique',
-      text: 'Consegui comprar tudo em um só lugar e ainda recebi orientação sobre o que escolher para minha reforma.',
+      name: 'José Vicente',
+      text: 'Sempre que preciso de ferragens venho aqui. Atendimento rápido, preço justo e uma variedade que não encontro em outro lugar.',
     },
     {
-      name: 'Patrícia Almeida',
-      text: 'Gostei da rapidez no orçamento e da qualidade dos produtos. Atendimento muito bom.',
+      name: 'Michael Monteiro',
+      text: 'Fui muito bem atendido, tiraram todas as minhas dúvidas e o orçamento saiu na hora. Loja completa e equipe nota 10.',
     },
   ],
 

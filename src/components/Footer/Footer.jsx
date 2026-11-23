@@ -20,7 +20,9 @@ function Footer({ company, menu }) {
       </div>
 
       <div className="container site-footer__credits">
-        <small>Developed by OK Smart</small>
+        <small>
+          © {new Date().getFullYear()} {company.name} · Developed by OK Smart
+        </small>
       </div>
     </footer>
   )

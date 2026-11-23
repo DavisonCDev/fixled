@@ -1,5 +1,10 @@
 import './Footer.css'
 
+const foundingYear = 2026
+const currentYear = new Date().getFullYear()
+const siteYears =
+  currentYear > foundingYear ? `${foundingYear} - ${currentYear}` : `${foundingYear}`
+
 function Footer({ company, menu }) {
   return (
     <footer className="site-footer">
@@ -20,9 +25,8 @@ function Footer({ company, menu }) {
       </div>
 
       <div className="container site-footer__credits">
-        <small>
-          © {new Date().getFullYear()} {company.name} · Developed by OK Smart
-        </small>
+        <small>© {siteYears} {company.name}</small>
+        <small>Developed by OK Smart</small>
       </div>
     </footer>
   )

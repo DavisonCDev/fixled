@@ -22,16 +22,16 @@ export const siteData = {
   ],
 
   hero: {
-    tag: 'Parafusos e LEDs para todos os projetos',
+    tag: 'Parafusos e ferragens para todos os projetos',
     title:
-      'A maior linha de parafusos e LEDs para o seu projeto, tudo em um só lugar.',
+      'A maior linha de parafusos e ferragens para o seu projeto, tudo em um só lugar.',
     description:
       'A FixLed atende em Nova Lima - MG com foco em cliente final, oferecendo parafusos, ferramentas, materiais elétricos e iluminação.',
     categories: ['Parafusos', 'Ferramentas', 'Materiais Elétricos', 'Iluminação'],
     video: 'assets/site/video-loja.mp4',
     imageTitle: 'Mostruário de parafusos',
     imageText:
-      'Variedade em parafusos, fixadores e LEDs para todos os projetos.',
+      'Variedade em parafusos, fixadores e ferragens para todos os projetos.',
     floatingTitle: 'Pronta entrega',
     floatingText: 'Agilidade e variedade para o seu projeto.',
   },

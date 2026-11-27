@@ -35,7 +35,7 @@ function Projects({
             onError={() => setVideoError(true)}
           />
         ) : (
-          <img src={project.image} alt={project.title} />
+          <img src={project.image} alt={project.title} loading="lazy" />
         )}
       </div>
       <h3>{project.title}</h3>
